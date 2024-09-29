@@ -12,3 +12,30 @@ AutoReplicator is a Python simulation of self-replicating cells based on the con
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/AutoReplicator.git
+2. Make sure you have Python installed (version 3.x).
+3. Run the simulation:
+   python main.py
+
+## Usage
+You can configure the number of simulation steps and grid size in the run_simulation function inside main.py. By default, the simulation runs for 15 steps on a 10x10 grid.
+Example:
+run_simulation(steps=20, rows=15, cols=15)
+
+## How It Works
+The simulation is based on a grid of cells, where each cell can either be 'alive' or 'dead'. The state of each cell is updated according to the number of alive neighbors it has:
+- A live cell with fewer than 2 or more than 3 live neighbors dies.
+- A dead cell with exactly 3 live neighbors comes to life.
+These simple rules can create complex and fascinating behaviors over time, including self-replication, survival, and death.
+
+## Future Plans
+- Add more complex cell behaviors.
+- Introduce patterns that can evolve over time.
+- Enable visualization with graphical output.
+
+## Contributions
+Contributions are welcome! Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License.
+
+
