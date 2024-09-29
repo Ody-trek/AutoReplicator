@@ -14,6 +14,7 @@ AutoReplicator is a Python simulation of self-replicating cells based on the con
    git clone https://github.com/your-username/AutoReplicator.git
 2. Make sure you have Python installed (version 3.x).
 3. Run the simulation:
+   ```bash
    python main.py
 
 ## Usage
