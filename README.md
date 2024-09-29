@@ -1,6 +1,6 @@
 # AutoReplicator
 
-参考《张江·复杂科学前沿27讲-23 冯·诺伊曼：探索复杂科学核心问题第一人》
+参考《张江·复杂科学前沿27讲-23 冯·诺伊曼：探索复杂科学核心问题第一人》  
 AutoReplicator is a Python simulation of self-replicating cells based on the concept of von Neumann's self-replicating machines. The project models a grid of cells that follow simple rules to replicate and evolve over time, mimicking basic life-like behavior similar to Conway's Game of Life.
 
 ## Features
